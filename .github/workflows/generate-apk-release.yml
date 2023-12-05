@@ -37,4 +37,5 @@ jobs:
           name: Release ${{ env.version_name }}
           draft: true
           prerelease: false
-          bodyFile: /app/build/outputs/apk/free/release/app/Plain-${{ env.version_name }}.apk
+          body: "TODO"
+          bodyFile: ./app/build/outputs/apk/free/release/PlainApp-${{ env.version_name }}.apk
